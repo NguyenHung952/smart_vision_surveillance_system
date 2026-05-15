@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg: #07111f;
+  --card: rgba(15, 25, 45, 0.92);
+  --primary: #00e5ff;
+  --secondary: #00ff99;
+  --warning: #ff9800;
+  --danger: #ff4d6d;
+  --text: #ffffff;
+  --muted: #9fb3c8;
+  --border: rgba(255, 255, 255, 0.08);
+  --shadow: 0 15px 40px rgba(0,0,0,0.45);
+}
+
+body {
+  font-family: 'Be Vietnam Pro', sans-serif;
+  background: radial-gradient(circle at top right, #0c2948 0%, #07111f 45%, #02070f 100%);
+  color: var(--text);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* COPY toàn bộ CSS trong <style> vào đây */
